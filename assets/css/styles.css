@@ -572,8 +572,24 @@ img {
   font-size: var(--small-font-size);
 }
 
+.projects__list{
+  font-size: var(--small-font-size);
+  margin-top: 1rem;
+  padding-left: 1.25rem;
+  display: grid;
+  gap: .5rem;
+}
+
+.projects__list li{
+  line-height: 1.5;
+}
+
 .projects__img{
   border-radius: 1.5rem;
+}
+
+.projects__img--stack{
+  margin-top: .75rem;
 }
 
 .projects__button{
